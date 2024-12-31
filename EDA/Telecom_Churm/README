@@ -1,1 +1,31 @@
+# Telecom Churn Analysis
+This project demonstrates data analysis using Pandas, Matplotlib, and Seaborn on a telecom churn dataset.
+![image](https://github.com/user-attachments/assets/57ce6fda-8f98-42c8-a8a7-d142978654e1)
+
+
+What is Pandas?
+
+Pandas is a Python library for data manipulation and analysis. It provides easy-to-use tools for handling structured data like tables.
+
+What is Exploratory Data Analysis (EDA)?
+
+EDA involves analyzing and visualizing data to uncover patterns, spot anomalies, and gain insights.
+
+Why EDA?
+> Understand data structure and quality
+> Identify trends, relationships, and anomalies
+> Prepare data for advanced analysis or modeling
+
+Features Implemented  : 
+
+> Sorting and retrieving data
+> Applying functions to cells, columns, and rows
+> Grouping and summary tables
+> DataFrame transformations
+> Initial churn prediction attempts
+
+Tools Used : 
+
+> Pandas: Data manipulation
+> Matplotlib & Seaborn: Data visualization
 
