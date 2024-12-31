@@ -1,1 +1,45 @@
+# Handson-Exploratory-Data-Analysis-EDA-
+==============================================
+
+This project performs exploratory data analysis on the Cuisine_rating.csv dataset. The analysis includes:
+-----------------------------------------------------------------------------------------------------------
+Summarizing the data
+Identifying column types
+Analyzing categorical and numerical columns
+Saving results in a Markdown file (EDA_results.md)
+Generating and saving visualizations in the images folder
+
+#Directory Structure
+---------------------
+.
+├── images/                    # Folder for generated plots
+├── EDA_results.md             # EDA results saved in Markdown format
+├── Cuisine_rating.csv         # Input dataset
+├── main.py                    # Main script running the analysis
+├── categorical_analysis.py    # Categorical data analysis
+├── numerical_analysis.py      # Numerical data analysis
+└── summarize_data.py          # Data summarization functions
+
+#Key Files :
+------------------
+1.main.py
+
+Loads the dataset.
+Summarizes the data.
+Identifies column types.
+Performs categorical and numerical analyses.
+Saves the results and plots.
+
+2.categorical_analysis.py
+This file contains the cat_summary function that analyzes categorical columns. It generates distribution plots and saves them to the images folder.
+
+3.numerical_analysis.py
+This file contains the num_summary function that analyzes numerical columns. It generates histograms and saves them to the images folder.
+
+4.EDA_results.md
+This file contains the results of the EDA, including statistical summaries and value counts for each column. It also includes references to the generated images.
+
+5.images folder
+This folder stores all the generated plots (both histograms for numerical columns and distribution plots for categorical columns).
+
 
